@@ -1,0 +1,145 @@
+ /* цвет текстов:
+ #2196F3; - ссылки, кнопки и обводки
+ #212121 заголовки и подзаоловки - первичный цвет;
+ #757575; - параграфы - вторичный цвет
+ #AFB1B8; - все иконки
+ rgba(255, 255, 255, 0.6);
+ 
+ background color:
+ основной - #FFFFFF;
+ вторичный - #F5F4FA;
+ футер - #2F303A;
+ */
+
+:root {
+  --head-and-subhead-color: #212121;
+  --paragraf-color: #757575;
+  --accent-color: #2196F3;
+  --icons-color: #AFB1B8;
+  --background-color-footer: #2F303A;
+  --background-text-footer: #ffffff;
+  --background-color-command: #F5F4FA;
+}
+
+body {
+  color: var(--head-and-subhead-color);
+}
+
+.header-conteiner {
+  /* background-color: rgba(203, 208, 224, 0.479); */
+}
+
+/* Фон контейнера команда */
+.command {
+  background-color: var(--background-color-command);
+}
+/* +++++++++++++++++++++++ */
+
+.link,
+.example-title {
+  color: var(--head-and-subhead-color);
+}
+
+/* Цветовое оформление ЛОГОТИПА */
+.logo {
+  color: var(--accent-color);
+  }
+  
+.logo-white {
+  color: white;
+}
+
+.logo-black {
+color: black
+}
+
+.is-hidden {
+  color: grey;
+  display: none;
+}
+
+.button-hero {
+  color: var(--background-text-footer);
+  background-color: var(--accent-color);
+}
+
+h1 {
+  color: gray; 
+  /* color: var(--background-text-footer); */
+ }
+
+.doing-txt {
+  color: var(--background-text-footer);
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.logowite span,
+.link:focus, 
+.link:hover,
+.mailtel:focus,
+.mailtel:hover {
+  color: var(--accent-color);
+}
+
+.link:active,
+.mailtel:active, {
+  color: white;
+}
+
+
+
+.activ {
+  color: var(--accent-color);
+
+}
+
+.mailtel,
+.example-discr {
+  color: var(--paragraf-color);
+}
+
+.footer-conteiner {
+  color: var(--background-text-footer);
+  background-color: var(--background-color-footer);
+}
+
+footer .mailtel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+footer .developed {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.subscribe a { 
+  color: var(--background-text-footer);
+}
+
+.par-txt {
+  color: var(--paragraf-color)
+}
+
+/*  стили цвета в портфолио */
+
+
+.link-portfolio {
+  color: var(--head-and-subhead-color);
+  background-color: var(--background-color-command);
+}
+
+.link-portfolio:hover,
+.link-portfolio:focus {
+  color: var(--background-text-footer);
+  background-color: var(--accent-color);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.link-portfolio:active {
+  color: var(--head-and-subhead-color);
+  background-color: var(--paragraf-color);
+}
+
+.subscribe > .button {
+  color: var(--background-text-footer);
+  background-color: var(--accent-color);
+}
