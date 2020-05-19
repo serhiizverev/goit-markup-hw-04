@@ -85,9 +85,8 @@ header {
   margin-left: auto;
 }
 
-.header-buttons .link,
-.site-nav .link {
-  padding: 26px 5px;
+.site-nav .item {
+  padding: 32px 0;
 }
 
 .site-nav .item:last-child {
@@ -99,12 +98,17 @@ header {
 }
 
 .header-buttons .item {
-  padding: 26px 0px;
   margin-right: 50px;
 }
 
 .header-buttons .item:last-child {
   margin-right: 15px;
+}
+
+.mailtel,
+.site-nav {
+  font-size: 14px;
+
 }
 
 .img-box-nav {
