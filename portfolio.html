@@ -11,38 +11,39 @@
   </head>
 <body>
 
-<!-- Шапка сайта с навигацией conteiner -->
-<header>
-  <div class="header-nav conteiner">
-    <div class="block-logo">
-      <p class="logo"><b>Web&nbsp;<span class="logo-black">Studio</span></b></p>
-    </div>
-    <div class="navigation">
-      <nav>
-        <ul class="site-nav">
-          <!-- ГДЕ ТО ТУТ ДОЛЖЕН БЫТЬ ОФОРМЛЕН ПСЕВДОКЛАСС С ПОДЧЕРКИВАНИЕМ -->
-          <li class="item"><a class="link " href="./index.html">Студия</a></li>
-          <li class="item"><a class="link activ" href="./portfolio.html">Портфолио</a></li>
-          <li class="item"><a class="link" href="./contacts.html">Контакты</a></li>
+  <!-- Шапка сайта с навигацией conteiner -->
+  <header>
+    <div class="header-nav conteiner">
+      <div class="block-logo">
+        <p class="logo"><b>Web&nbsp;<span class="logo-black">Studio</span></b></p>
+      </div>
+      <div class="navigation">
+        <nav>
+          <ul class="site-nav">
+            <li class="item"><a class="link" href="./index.html">Студия</a></li>
+            <li class="item"><a class="link activ" href="./portfolio.html">Портфолио</a></li>
+            <li class="item"><a class="link" href="./contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-buttons" >
+        <ul>
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="mailtel link">
+              <img class="img-box-nav" src="./images/envelope.svg" alt="иконка почтового конверта"/>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="mailtel link">
+              <img class="img-box-nav" src="./images/smartphone.svg" alt="иконка телефона" />
+              &plus;38&nbsp;096&nbsp;111&nbsp;11&nbsp;11
+            </a>
+          </li>
         </ul>
-      </nav>
+      </div>
     </div>
-    <div class="header-buttons">
-      <ul>
-        <li class="item">
-          <a href="mailto:info@devstudio.com" class="mailtel link">
-            <img class="img-box" src="./images/envelope.svg" alt="иконка почтового конверта"/>info@devstudio.com
-          </a>
-        </li>
-        <li class="item">
-          <a href="tel:+380961111111" class="mailtel link">
-            <img class="img-box" src="./images/smartphone.svg" alt="иконка телефона" />&plus;38&nbsp;096&nbsp;111&nbsp;11&nbsp;11
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</header>
+  </header>
 
  <main class="conteiner-portfolio">
    <!-- данный заголовок не отображается в браузере -->
@@ -68,69 +69,87 @@
       </li>
     </ul>
   </div>
-  <div >
-    <ul class="projeck-conteiner">
-      <li class="project-box">
+  <div class="projeck-conteiner">
+    <ul >
+      <li class="card">
         <a href="#">
-          <img class="img-projeckt-box" src="./images/portfolio/bgtehnokrjak_a.svg" alt="фотография компании наших клиентов" />
-          <h2 class="example-title">Технокряк</h2>
-          <p class="example-discr">Веб-сайт</p>
+          <img class="card-img" src="./images/portfolio/a.jpg" width="370px" alt="фотография компании наших клиентов" />
+          <div class="card-content">
+            <h2 class="card-title">Технокряк</h2>
+            <p class="card-discr">Веб-сайт</p>
+          </div>
         </a>
       </li>
-      <li class="project-box">
+      <li class="card">
         <a href="#">
-          <img  class="img-projeckt-box" src="./images/portfolio/desing_b.svg" alt="фотография компании наших клиентов" />
-          <h2 class="example-title">Постер New Orlean vs Golden Stars</h2>
-          <p class="example-discr">Дизайн</p>
+          <img  class="card-img" src="./images/portfolio/b.jpg" width="370px" alt="фотография компании наших клиентов" />
+          <div class="card-content">
+            <h2 class="card-title">Постер New Orlean vs Golden Stars</h2>
+            <p class="card-discr">Дизайн</p>
+          </div>
         </a>
       </li>
-      <li class="project-box">
+      <li class="card">
         <a href="#">
-          <img  class="img-projeckt-box" src="./images/portfolio/apps_c.svg" alt="фотография компании наших клиентов" />
-          <h2 class="example-title">Ресторан Seafood</h2>
-          <p class="example-discr">Приложение</p> 
+          <img  class="card-img" src="./images/portfolio/c.jpg" width="370px" alt="фотография компании наших клиентов" />
+          <div class="card-content">
+            <h2 class="card-title">Ресторан Seafood</h2>
+            <p class="card-discr">Приложение</p> 
+          </div>
         </a>
       </li>
-      <li class="project-box">
+      <li class="card">
         <a href="#">
-          <img  class="img-projeckt-box" src="./images/portfolio/prime_d.svg" alt="фотография компании наших клиентов" />
-          <h2 class="example-title">Проект Prime</h2>
-          <p class="example-discr">Маркетинг</p> 
+          <img  class="card-img" src="./images/portfolio/d.jpg" width="370px" alt="фотография компании наших клиентов" />
+          <div class="card-content">
+            <h2 class="card-title">Проект Prime</h2>
+            <p class="card-discr">Маркетинг</p> 
+          </div>
         </a>
       </li>
-      <li class="project-box">
+      <li class="card">
         <a href="#">
-          <img  class="img-projeckt-box" src="./images/portfolio/box_e.svg" alt="фотография компании наших клиентов" />
-          <h2 class="example-title">Проект Boxe</h2>
-          <p class="example-discr">Приложение</p> 
+          <img  class="card-img" src="./images/portfolio/e.jpg" alt="фотография компании наших клиентов" />
+          <div class="card-content">
+            <h2 class="card-title">Проект Boxe</h2>
+            <p class="card-discr">Приложение</p> 
+          </div>
         </a>
       </li>
-      <li class="project-box">
+      <li class="card">
         <a href="#">
-          <img  class="img-projeckt-box" src="./images/portfolio/inspiration_f.svg" alt="фотография компании наших клиентов" />
-          <h2 class="example-title">Inspiration has no Borders</h2>
-          <p class="example-discr">Веб-сайт</p> 
+          <img  class="card-img" src="./images/portfolio/f.jpg" width="370px" alt="фотография компании наших клиентов" />
+          <div class="card-content">
+            <h2 class="card-title">Inspiration has no Borders</h2>
+           <p class="card-discr">Веб-сайт</p>
+          </div> 
         </a>
       </li>
-      <li class="project-box">
+      <li class="card">
         <a href="#">
-          <img  class="img-projeckt-box" src="./images/portfolio/izdanie_g.svg" alt="фотография компании наших клиентов" />
-          <h2 class="example-title">Издание Limited Edition</h2>
-          <p class="example-discr">Дизайн</p> 
+          <img  class="card-img" src="./images/portfolio/g.jpg" width="370px" alt="фотография компании наших клиентов" />
+          <div class="card-content">
+            <h2 class="card-title">Издание Limited Edition</h2>
+           <p class="card-discr">Дизайн</p>
+          </div> 
         </a>
       </li>
-      <li class="project-box">
+      <li class="card">
         <a href="#">
-          <img  class="img-projeckt-box" src="./images/portfolio/imglab_h.svg" alt="фотография компании наших клиентов" />
-          <h2 class="example-title">Проект LAB</h2>
-          <p class="example-discr">Маркетинг</p> 
+          <img  class="card-img" src="./images/portfolio/h.jpg" width="370px" alt="фотография компании наших клиентов" />
+          <div class="card-content">
+            <h2 class="card-title">Проект LAB</h2>
+            <p class="card-discr">Маркетинг</p>
+          </div> 
         </a>
       </li>
-      <li class="project-box">
+      <li class="card">
         <a href="#">
-          <img  class="img-projeckt-box" src="./images/portfolio/biseness_i.svg" alt="фотография компании наших клиентов" />
-          <h2 class="example-title">Growing Business</h2>
-          <p class="example-discr">Приложение</p> 
+          <img  class="card-img" src="./images/portfolio/f.jpg" width="370px" alt="фотография компании наших клиентов" />
+          <div class="card-content">
+            <h2 class="card-title">Growing Business</h2>
+            <p class="card-discr">Приложение</p> 
+          </div>
         </a>
       </li>
     </ul>
@@ -193,8 +212,8 @@
     </div> 
 
     <!-- общяя\центральная нижняя часть футера -->
-    <div class="developed">
-      <p>
+    <div>
+      <p class="developed">
         2020 | Developed by GoIT Students
       </p>
     </div>

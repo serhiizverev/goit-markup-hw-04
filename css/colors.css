@@ -36,7 +36,7 @@ body {
 /* +++++++++++++++++++++++ */
 
 .link,
-.example-title {
+.card-title {
   color: var(--head-and-subhead-color);
 }
 
@@ -86,15 +86,12 @@ h1 {
   color: white;
 }
 
-
-
 .activ {
   color: var(--accent-color);
-
 }
 
 .mailtel,
-.example-discr {
+.card-discr {
   color: var(--paragraf-color);
 }
 
@@ -142,4 +139,9 @@ footer .developed {
 .subscribe > .button {
   color: var(--background-text-footer);
   background-color: var(--accent-color);
+}
+
+.projeck-conteiner .card:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+
 }

@@ -18,6 +18,12 @@ body {
   padding: 0px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 ul,
 a,
 li,
@@ -213,10 +219,6 @@ h1 {
   margin-right: 30px;
 }
 
-.img-box {
-  display: block;
-}
-
 .block-doing-txt:last-child {
   margin-right: 0px;
 }
@@ -224,6 +226,8 @@ h1 {
 .position-block-doing {
   position: relative;
   margin-top: 50px;  
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .doing-txt {
@@ -429,7 +433,7 @@ footer {
 /* PORTFOLIO page */
 
 .conteiner-portfolio {
-  width: 1230px;
+  width: 1200px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -463,51 +467,57 @@ footer {
 /* +++++++++++++ */
 
 .projeck-conteiner {
-  display: flex;
-  flex-wrap: wrap;
   margin-top: 50px;
 }
 
-.project-box {
+.projeck-conteiner > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
   display: block;
-  width: 380px;
-  height: 404px;
+  width: 370px;
   margin-right: 30px;
-  border: 1px solid #EEEEEE;
   border-radius: 5px;
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
 }
 
-.project-box:nth-child(3n) {
-  margin-right: 0px;
-}
-
-.project-box:nth-child(3n-2) {
-  margin-left: 15px;
-}
-
-.project-box:nth-child(n + 4) {
-margin-top: 30px;
-}
-
-.img-projeckt-box {
+.card-img {
   display: block;
 }
 
-.example-title {
-  display: block;
+.card-content {
+  border: 1px solid #eeeeee;
+  border-top-width: 0px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.card-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
-  margin-left: 24px;
-  margin-top: 20px;
+  padding-left: 24px;
+  padding-top: 20px;
 }
 
-.example-discr {  
-  display: block;
+.card-discr {  
   line-height: 1.8;
   text-align: left;
-  margin-left: 24px;
-  margin-top: 4px;
+  padding-left: 24px;
+  padding-top: 4px;
+  padding-bottom: 20px;
+}
+
+.card:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.card:nth-child(3n-2) {
+  margin-left: 15px;
+}
+
+.card:nth-child(n + 4) {
+margin-top: 30px;
 }
