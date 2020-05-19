@@ -115,8 +115,19 @@ header {
 }
 
 
-/* ПОПЫТКА СДЕЛАТЬ ПОДЧЕРКИВАНИЕ ПСЕВДОКЛАССОМ */
-/* .site-nav .link::before,
+/* ПОПЫТКА СДЕЛАТЬ ПОДЧЕРКИВАНИЕ ПСЕВДОКЛАССОМ 
+
+.activ::after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid var(--accent-color)
+ background-image: url(../images/hover.svg);
+transform-origin: ;
+transform: scaleX(0);
+transition: 0.2s;
+} 
+
+.site-nav .link::before,
 .site-nav .link::after {
   content: "";
   width: 60px;
@@ -347,35 +358,42 @@ footer {
   margin-top: 94px;
 }
 
-.footer-conteiner .conteiner {
+.footer-conteiner > .conteiner {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 48px;
 }
 
-.footer-left {
-  display: block;
-  margin-top: 48px;
-}
+.footer-left > .logo {
+margin-bottom: 9px;
+} 
 
 .footer-cammon {
-  display: block;
-  margin-top: 56px;
-  margin-left: 179px;
-}
+} 
 
 .footer-cammon > ul {
   display: flex;
 }
 
-.mailtel {
-  line-height: 1.7;
+.mail-content,
+.tel-content {
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+  line-height: 1.6;
+}
+
+.mail-content {
+  margin-bottom: 8px;
 }
 
 .subscribe {
   display: block;
-  margin-top: 56px;
-  margin-left: auto;
-  /* margin-right: 15px; */
+}
+
+.subscribe > p {
+  margin-bottom: 21px;
 }
 
 .logo,
@@ -385,10 +403,10 @@ footer {
 }
 
 .map {
-  margin-top: 10px;
   font-size: 14px;
-  line-height: 1.7; 
+  line-height: 1.6; 
   font-style: normal;
+  margin-bottom: 9px;
 }
 
 .subscribe,
@@ -436,11 +454,12 @@ footer {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
+  /* background-color: indigo; */
 }
 
 .filtrs-batton {
   display: flexbox;
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .filtrs-batton > ul {
