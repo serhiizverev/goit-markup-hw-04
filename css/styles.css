@@ -93,6 +93,12 @@ header {
   margin-right: 0px;
 }
 
+.site-nav .link {
+padding: 32px 0;
+}
+
+/* hero ++++++++++++++ */
+
 .header-buttons ul {
   display: flex;
 }
