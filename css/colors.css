@@ -75,14 +75,11 @@ h1 {
 
 .logowite span,
 .link:focus, 
-.link:hover,
-.mailtel:focus,
-.mailtel:hover {
+.link:hover {
   color: var(--accent-color);
 }
 
-.link:active,
-.mailtel:active, {
+.link:active {
   color: white;
 }
 
@@ -92,7 +89,6 @@ h1 {
 
 .mail-content,
 .tel-content,
-.mailtel,
 .card-discr {
   color: var(--paragraf-color);
 }
@@ -100,10 +96,6 @@ h1 {
 .footer-conteiner {
   color: var(--background-text-footer);
   background-color: var(--background-color-footer);
-}
-
-footer .mailtel {
-  color: rgba(255, 255, 255, 0.6);
 }
 
 footer .developed {
