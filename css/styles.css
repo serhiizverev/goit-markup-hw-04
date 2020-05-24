@@ -428,11 +428,11 @@ margin-bottom: 9px;
   margin-bottom: 8px;
 }
 
-.subscribe {
+.subscribe > form {
   display: block;
 }
 
-.subscribe > p {
+.subscribe p {
   margin-bottom: 21px;
 }
 
@@ -456,21 +456,39 @@ margin-bottom: 9px;
  text-transform: uppercase;
 }
 
-.subscribe > .button {
+.subscribe .button {
   display: inline-block;
-  width: 200px;
-  height: 50px;
-  padding: 10px 20px 10px 20px;
+  position: relative;
+  padding: 15px 62px 15px 29px;
   text-align: center;
-  vertical-align: bottom;
   border: 2px solid transparent;
   border-radius: 4px;
 }
 
-.iconsend {
+.subscribe .button::after {
+  position: absolute;
+  content: '';
+  width: 24px;
+  height: 24px;
+  right: 28px;
+  bottom: 12px;
+  background-image: url(../images/icon-send.svg);
+}
+
+input[type=text] {
   display: inline-block;
-  vertical-align: middle;
-  margin-left: 12px;
+  font-size: 16px;
+  line-height: 1;
+  width: 350px;
+  padding: 14px 0 16px 12px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: unset;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.subscribe input {
+  margin-right: 10px;
 }
 
 .developed {

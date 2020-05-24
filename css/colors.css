@@ -131,9 +131,16 @@ footer .developed {
   background-color: var(--paragraf-color);
 }
 
-.subscribe > .button {
+.subscribe .button {
   color: var(--background-text-footer);
   background-color: var(--accent-color);
+}
+
+.subscribe .button:hover,
+.subscribe .button:focus,
+.button-hero:hover,
+.button-hero:focus {
+  opacity: 0.9;
 }
 
 .projeck-conteiner .card:hover {
