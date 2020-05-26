@@ -120,7 +120,7 @@ padding: 32px 0;
 
 .header-buttons .item {
   margin-right: 50px;
-  position: relative;
+  align-items: baseline;
 }
 
 .mail,
@@ -241,12 +241,6 @@ margin: -1;
   display: flex; 
 }
 
-/* .features-box-content > img {
-  display: block;
-  width: 270px;
-  height: 120px;
-} */
-
 .features-box-content {
   margin-right: 30px;
 }
@@ -355,7 +349,6 @@ margin: -1;
   content: '';
   width: auto;
   height: 260px;
-  background-color: lightslategray;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -412,13 +405,11 @@ margin: -1;
   margin-right: 11px;
 }
 
-.command-soc-link > ul> li > img,
-.footer-cammon > ul > li > img,
-.command-soc-link > ul> li > a,
-.footer-cammon > ul > li > a,
-.img-box {
+
+.command-soc-link > ul > li > a,
+.footer-cammon > ul > li > a {
   display: block;
-  line-height: 0px;
+  /* line-height: 0px; */
 }
 
 .command-soc-link > ul> li:last-child,
