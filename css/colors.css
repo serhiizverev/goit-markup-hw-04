@@ -25,14 +25,11 @@ body {
   color: var(--head-and-subhead-color);
 }
 
-.header-conteiner {
-  /* background-color: rgba(203, 208, 224, 0.479); */
-}
-
 /* Фон контейнера команда */
 .command {
   background-color: var(--background-color-command);
 }
+
 /* +++++++++++++++++++++++ */
 
 .link,
@@ -53,20 +50,14 @@ body {
 color: black
 }
 
-.is-hidden {
-  color: grey;
-  display: none;
-}
-
 .button-hero {
   color: var(--background-text-footer);
   background-color: var(--accent-color);
 }
 
-h1 {
-  color: gray; 
-  /* color: var(--background-text-footer); */
- }
+h1 { 
+  color: var(--background-text-footer);
+}
 
 .doing-txt {
   color: var(--background-text-footer);

@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
 }
 
-*, 
+*,
 *::before, 
 *::after {
   box-sizing: inherit;
@@ -27,7 +27,6 @@ img {
 ul,
 a,
 li,
-h1,
 h2,
 h3,
 p,
@@ -51,7 +50,7 @@ h2 {
 }
 
 /* header-conteiner ===================*/
-header {
+.underline {
   outline: 1px solid #ECECEC;
 }
 
@@ -171,16 +170,18 @@ padding: 32px 0;
 /* hero ============================ */
 
 .hero-contriner {
-  background-image: url(../images/main_foto.jpg);
+  display: block;
   position: relative;
+  max-width: 1600px;
   height: 600px;
+  background-image: 
+  linear-gradient( to right, rgba(47, 48, 58, 0.8),rgba(47, 48, 58, 0.8)),
+  url(../images/main_foto.jpg);
+  margin-left: auto;
+  margin-right: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  /* background-color:  rgba(47, 48, 58, 0.8); */
-  /* opacity:0.2; */
-  /* background: rgba(47, 48, 58, 0.8); */
 }
 
 .hero-content {
@@ -191,32 +192,35 @@ padding: 32px 0;
   transform: translate(-50%, -50%);
 }
 
-.hero-content > h1 > b {
-  display: inline-block;
+h1 {
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-bottom: 46px;
-  color: var(--background-text-footer);
-  /* shadow: 0 0 10px rgba(47, 48, 58, 0.8); */
+  margin: 0 0 46px 0;
 }
 
 .button-hero {
   width: 200px;
   height: 50px;
   padding: 14px 20px 14px 20px;
-  text-align: center;
   outline: 2px solid transparent;
   border-radius: 4px;
 }
 
 /* Преимущества features------*/
 
+.is-hidden {
+visibility: hidden;
+position: absolute;
+clip: rect(0 0 0 0);
+width: 1;
+height: 1;
+margin: -1;
+}
+
 .features {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0;
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -233,18 +237,48 @@ padding: 32px 0;
   margin-top: 10px;
  }
 
-.features-groupe {
+.features ul {
   display: flex; 
 }
 
-.features-box-content > img {
+/* .features-box-content > img {
   display: block;
   width: 270px;
   height: 120px;
+} */
+
+.features-box-content {
+  margin-right: 30px;
 }
 
-.features-box-content{
-  margin-right: 30px;
+.features-box-content::before {
+  content: '';
+  display: block;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-size: 70px 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--background-color-command);
+
+}
+
+.features-box-content.icon-antena::before {
+  background-image: url('../images/features/antena.svg');
+}
+
+.features-box-content.icon-clock::before {
+  background-image: url('../images/features/clock.svg');
+}
+ 
+
+.features-box-content.icon-diagram::before {
+  background-image: url('../images/features/diagram.svg');
+}
+
+.features-box-content.icon-astronaut::before {
+  background-image: url('../images/features/astronaut.svg');
 }
 
 .features-box-content:last-child {
@@ -308,11 +342,38 @@ padding: 32px 0;
 .command-box {
   display: block;
   width: 270px;
-  height: 422px;
   margin-bottom: 94px;
   margin-right: 29px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  overflow: hidden;
+}
+
+.command-box::before {
+  display: block;
+  content: '';
+  width: auto;
+  height: 260px;
+  background-color: lightslategray;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.command-box.employee-a::before{
+  background-image: url('../images/comand/a.jpg');
+}
+
+.command-box.employee-b::before{
+  background-image: url('../images/comand/b.jpg');
+}
+
+.command-box.employee-c::before{
+  background-image: url('../images/comand/c.jpg');
+}
+
+.command-box.employee-d::before{
+  background-image: url('../images/comand/d.jpg');
 }
 
 .command-box:last-child {
@@ -331,7 +392,7 @@ padding: 32px 0;
 
 .command h3 {
  text-align: center;
- margin-top: 30px;
+ margin-top: 28px;
 }
 
 .command p {
@@ -341,7 +402,8 @@ padding: 32px 0;
 
 .command-soc-link {
   display: block;
-  margin-top: 16px;
+  margin-top: 15px;
+  margin-bottom: 24px;
 }
 
 .command-soc-link > ul> li,
@@ -460,7 +522,6 @@ margin-bottom: 9px;
   display: inline-block;
   position: relative;
   padding: 15px 62px 15px 29px;
-  text-align: center;
   border: 2px solid transparent;
   border-radius: 4px;
 }
@@ -499,7 +560,6 @@ input[type=text] {
 }
 
 .footer-conteiner .conteiner {
-  margin-top: 18px;
   padding-bottom: 18px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);;
 }

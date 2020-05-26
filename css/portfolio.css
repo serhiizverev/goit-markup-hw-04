@@ -62,6 +62,53 @@
   border-bottom-left-radius: 5px;
 }
 
+.card-content::before {
+  content: '';
+  display: block;
+  width: auto;
+  height: 294px;
+  background-color: lightcoral;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 370px 294px;
+}
+
+.card-content.icon-i-min::before {
+  background-image: url('../images/portfolio/a-min.jpg');
+}
+
+.card-content.icon-b-min::before {
+  background-image: url('../images/portfolio/b-min.jpg');
+}
+
+.card-content.icon-c-min::before {
+  background-image: url('../images/portfolio/c-min.jpg');
+}
+
+.card-content.icon-d-min::before {
+  background-image: url('../images/portfolio/d-min.jpg');
+}
+
+.card-content::before {
+  background-image: url('../images/portfolio/i-min.jpg');
+}
+
+.card-content.icon-f-min::before {
+  background-image: url('../images/portfolio/f-min.jpg');
+}
+
+.card-content.icon-g-min::before {
+  background-image: url('../images/portfolio/g-min.jpg');
+}
+
+.card-content.icon-h-min::before {
+  background-image: url('../images/portfolio/h-min.jpg');
+}
+
+.card-content.icon-i-min::before {
+  background-image: url('../images/portfolio/i-min.jpg');
+}
+
 .card-title {
   font-size: 18px;
   line-height: 2;
@@ -72,7 +119,7 @@
 }
 
 .card-discr {  
-  line-height: 1.8;
+  line-height: 1.7;
   text-align: left;
   padding-left: 24px;
   padding-top: 4px;
