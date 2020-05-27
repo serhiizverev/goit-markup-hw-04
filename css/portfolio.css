@@ -7,12 +7,8 @@
 }
 
 .filtrs-batton {
-  display: flexbox;
-  padding-top: 94px;
-}
-
-.filtrs-batton > ul {
   display: flex;
+  padding-top: 94px;
   justify-content: center;
 }
 
@@ -32,15 +28,12 @@
   margin-right: 0;
 }
 
-/* +++++++++++++ */
+/* projeck-conteiner ============= */
 
 .projeck-conteiner {
-  margin-top: 50px;
-}
-
-.projeck-conteiner > ul {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 
 .card {
