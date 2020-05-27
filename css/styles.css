@@ -103,7 +103,7 @@ h2 {
 
 .site-nav .link {
 padding: 32px 0;
-}  /* это для нижнего подчеркивания кнопок в навигации*/
+}  /*  это для нижнего подчеркивания кнопок в навигации*/
 
 .contacts-links {
   margin-left: auto;
@@ -240,14 +240,12 @@ margin: -1;
 .features-box-content::before {
   content: '';
   display: block;
-  /* width: 270px; */
   height: 120px;
   border-radius: 4px;
   background-size: 70px 70px;
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--background-color-command);
-
 }
 
 .features-box-content.icon-antena::before {
@@ -271,7 +269,7 @@ margin: -1;
   margin-right: 0px;
 }
 
- /* Чем мы занимаемся doing --- */
+ /* Чем мы занимаемся doing ====== */
 
 .doing {
   padding-top: 94px;
@@ -314,7 +312,7 @@ margin: -1;
   border-radius: 0px 0px 4px 4px;
 }
 
-/* Наша команда--------- */
+/* Наша команда =================== */
 
 .list-command-box{
   display: flex;
@@ -401,7 +399,7 @@ margin: -1;
   margin-right: 0;
 }
 
-/* Постоянные клиенты ---- */
+/* Постоянные клиенты -------- */
 
 .clients h2 {
   margin-top: 94px;
@@ -424,7 +422,7 @@ margin: -1;
   margin-right: 0px;
 } 
 
-/* footer -------------- */
+/* footer ---------------- */
 
 footer {
   margin-top: 94px;
