@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="ru">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,18 +13,16 @@
 <body>
 
   <!-- Шапка сайта с навигацией conteiner -->
-  <header class="underline">
-    <div class="header-nav conteiner">
-      <div class="block-logo">
-        <a href="#" class="logo">
-          <b>Web&nbsp;<span class="logo-black">Studio</span></b>
-        </a>        
-      </div>
+  <header class="header-nav">
+    <div class="conteiner">
+      <a class="logo" href="#">
+        <b>Web&nbsp;<span class="logo-black">Studio</span></b>
+      </a>        
       <nav>
         <ul class="site-nav">
           <li class="item"><a class="link  activ" href="./index.html">Студия</a></li>
           <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
-          <li class="item"><a class="link" href="./contacts.html">Контакты</a></li>
+          <li class="item"><a class="link" href="./contact.html">Контакты</a></li>
         </ul>
       </nav>
       <ul class="contacts-links">
@@ -54,57 +53,49 @@
     </section>
 
     <!-- section Преимущества компании conteiner -->
-    <section class="conteiner">
-      <div class="features">
+    <section class="features">
+      <div class="conteiner">
         <!-- данный заголовок не отображается в браузере -->
         <h2 class="is-hidden">
           Преимущества нашей компании
         </h2>
-          <ul class="features-groupe"> 
-            <li class="features-box-content icon-antena">
-              <!-- <img class="img-features" src="./images/features/antena.svg" alt="иконка радара для поиска"/> -->
-              <h3>
-                Внимание к деталям
-              </h3>
-              <p class="par-txt">
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
-              </p>
-            </li>
-            <li class="features-box-content icon-clock">
-              <h3>
-                Пунктуальность
-              </h3>
-              <p class="par-txt">
-                Задача организации, в особенности же рамки и место обучения кадров
-                влечет за собой.
-              </p>
-            </li>
-            <li class="features-box-content icon-diagram">
-              <h3>
-                Планирование
-              </h3>
-              <p class="par-txt">
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
-              </p>
-            </li>
-            <li class="features-box-content icon-astronaut">
-              <h3>
-                Современные технологии
-              </h3>
-              <p class="par-txt">
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
-              </p>
-            </li>
-          </ul>
+        <ul class="features-groupe"> 
+          <li class="features-box-content icon-antena">
+            <!-- <img class="img-features" src="./images/features/antena.svg" alt="иконка радара для поиска"/> -->
+            <h3>Внимание к деталям</h3>
+            <p class="par-txt">
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li class="features-box-content icon-clock">
+            <h3>Пунктуальность</h3>
+            <p class="par-txt">
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li class="features-box-content icon-diagram">
+            <h3>Планирование</h3>
+            <p class="par-txt">
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li class="features-box-content icon-astronaut">
+            <h3>Современные технологии</h3>
+            <p class="par-txt">
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
       </div>
     </section>
 
     <!-- Чем мы занимаемся conteiner  -->
-    <section class="conteiner">
-      <div class="doing">
+    <section class="doing">
+      <div class="conteiner">
         <h2>
           Чем мы занимаемся
         </h2>
@@ -112,7 +103,7 @@
           <ul>
             <li class="block-doing-txt">
               <div class="position-block-doing">
-                <img class="img-box" src="./images/portfolio/i-min.jpg"" alt="фотография с ноутбуком" />
+                <img class="img-box" src="./images/portfolio/i-min.jpg" alt="фотография с ноутбуком" />
                 <h3 class="doing-txt">
                   Десктопные приложения
                 </h3>
@@ -222,8 +213,8 @@
     </section>
 
     <!-- Клиенты компании conteiner -->
-    <section>
-      <div class="conteiner clients">
+    <section class="clients">
+      <div class="conteiner">
         <h2>
           Постоянные клиенты
         </h2>
@@ -282,7 +273,7 @@
 
       <!-- правая верхняя часть футера с подпиской -->
       <div class="subscribe">
-        <form action="">
+        <form action="forma">
           <p>
             <b>Подписаться на рассылку</b>
           </p>
@@ -294,7 +285,7 @@
       </div>        
     </div> 
 
-    <!-- общяя\центральная нижняя часть футера --- -->
+    <!-- общяя\центральная нижняя часть футера -->
     <p class="developed">
       2020 | Developed by GoIT Students
     </p>

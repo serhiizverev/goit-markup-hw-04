@@ -102,6 +102,18 @@
   background-image: url('../images/portfolio/i-min.jpg');
 }
 
+.card-content.icon-a-min:hover:before {
+  content: 'Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.';
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+
+  color: #FFFFFF;
+  padding: 20px;
+  background-color: rgba(33, 150, 243, 0.9);
+
+}
+
 .card-title {
   font-size: 18px;
   line-height: 2;
@@ -130,5 +142,3 @@
 .card:nth-child(n + 4) {
 margin-top: 30px;
 }
-
-/* іаіваіаві */
