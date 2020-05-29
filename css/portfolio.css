@@ -164,6 +164,22 @@ margin-top: 30px;
 
 /* footer buton send form ++++
   кнопка подписаться формы футера */
+.subscribe-box {
+  display: inline-flexbox;
+}
+.subscribe-box-send {
+  display: flex;
+}
+.input {
+  width: 358px;
+  height: 50px;
+}
+.subscribe-box-button {
+  display: flex;
+}
+.subscribe-box-button > b {
+  padding: 10px 29px;
+}
 
 .subscribe-icon-button {
   display: inline-flex;
