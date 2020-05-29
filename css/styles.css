@@ -522,7 +522,7 @@ margin-bottom: 9px;
   height: 24px;
   right: 28px;
   bottom: 12px;
-  background-image: url(../images/icon-send.svg);
+  background-image: url(../images/sprite.svg#icon-send);
 }
 
 input[type=text] {

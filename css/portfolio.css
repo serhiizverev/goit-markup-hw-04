@@ -143,3 +143,49 @@
 .card:nth-child(n + 4) {
 margin-top: 30px;
 }
+
+/* icons svg soc-links footer +++++++ */
+.button-icon {
+  display: block;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.button-icon:hover {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #2196F3;
+}
+
+.subscribe-button {
+  display: inline-block;
+  position: relative;
+  padding: 15px 62px 15px 29px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+
+.subscribe-button::after {
+  position: absolute;
+  content: '';
+  width: 24px;
+  height: 24px;
+  right: 28px;
+  bottom: 12px;
+  background-image: url(../images/icon-send.svg);
+}
+
+.subscribe-button {
+  color: var(--background-text-footer);
+  background-color: var(--accent-color);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  opacity: 0.9;
+}
