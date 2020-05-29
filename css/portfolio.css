@@ -164,21 +164,19 @@ margin-top: 30px;
 
 .subscribe-button {
   display: flex;
+  justify-content: baseline;
   padding: 15px 62px 15px 29px;
   border: 2px solid transparent;
   border-radius: 4px;
 }
 
-..subscribe-button > b {
+.subscribe-button > b {
   display: block;
 }
 
 .subscribe-button-icon {
   width: 24px;
   height: 24px;
-  left: 10px;
-  top: 5px;
-  display: block;
   fill: white;
 }
 
