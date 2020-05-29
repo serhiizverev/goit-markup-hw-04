@@ -167,7 +167,7 @@ margin-top: 30px;
 .subscribe-box {
   display: inline-flexbox;
 }
-.forma > p {
+.forma > p > b {
   text-transform: uppercase;
   font-size: 16px;
 }
@@ -183,16 +183,21 @@ margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--background-text-footer);
+  background-color: var(--accent-color);
 }
 .subscribe-box-button > b {
-  padding: 10px 29px;
+  padding: 10px 0 10px 29px;
 }
 
 .subscribe-icon-button {
   display: inline-flex;
   width: 24px;
   height: 24px;
-  margin-left: 10px;
+  padding: 13px 28px 13px 10px;
   fill: white;
 }
 
