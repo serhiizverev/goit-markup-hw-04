@@ -162,38 +162,22 @@ margin-top: 30px;
   background-color: #2196F3;
 }
 
-.subscribe-button {
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  padding: 15px 29px 15px 29px;
-  border: 2px solid transparent;
-  border-radius: 4px;
-}
+/* footer buton send form ++++
+  кнопка подписаться формы футера */
 
-.subscribe-button > b {
-  display: inline-block;
-}
-
-.subscribe-button-icon {
-  display: inline-block;
+.subscribe-icon-button {
+  display: inline-flex;
   width: 24px;
   height: 24px;
   margin-left: 10px;
   fill: white;
 }
 
-/* .subscribe-button::after {
-  position: absolute;
-  content: '';
-  width: 24px;
-  height: 24px;
-  right: 28px;
-  bottom: 12px;
-  fill: white;
-  background-image: url('../images/sprite.svg#icon-send');
-} */
 
+
+
+
+/* ========================== */
 .subscribe-button {
   color: var(--background-text-footer);
   background-color: var(--accent-color);
