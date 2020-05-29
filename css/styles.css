@@ -507,15 +507,15 @@ margin-bottom: 9px;
  text-transform: uppercase;
 }
 
-.subscribe .button {
+/* .subscribe .button {
   display: inline-block;
   position: relative;
   padding: 15px 62px 15px 29px;
   border: 2px solid transparent;
   border-radius: 4px;
-}
+} */
 
-.subscribe .button::after {
+/* .subscribe .button::after {
   position: absolute;
   content: '';
   width: 24px;
@@ -524,7 +524,7 @@ margin-bottom: 9px;
   bottom: 12px;
   color: #ffffff;
   background-image: url(../images/sprite.svg#icon-send);
-}
+} */
 
 input[type=text] {
   display: inline-block;
