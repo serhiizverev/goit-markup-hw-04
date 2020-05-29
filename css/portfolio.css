@@ -168,9 +168,10 @@ margin-top: 30px;
   padding: 15px 62px 15px 29px;
   border: 2px solid transparent;
   border-radius: 4px;
+  fill: white;
 }
 
-.subscribe-button::after {
+/* .subscribe-button::after {
   position: absolute;
   content: '';
   width: 24px;
@@ -179,7 +180,7 @@ margin-top: 30px;
   bottom: 12px;
   fill: white;
   background-image: url('../images/sprite.svg#icon-send');
-}
+} */
 
 .subscribe-button {
   color: var(--background-text-footer);
