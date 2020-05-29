@@ -188,14 +188,16 @@ margin-top: 30px;
   background-color: var(--accent-color);
 }
 .subscribe-box-button > b {
-  padding: 10px 0 10px 29px;
+  margin: 10px 0 10px 29px;
 }
 
 .subscribe-icon-button {
   display: block;
   width: 24px;
   height: 24px;
-  padding: 13px 28px 13px 10px;
+  /* padding: 13px 28px 13px 10px; */
+  margin-right: 28px;
+  margin-left: 13px;
   fill: white;
 }
 
