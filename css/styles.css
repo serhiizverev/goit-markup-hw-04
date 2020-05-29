@@ -480,7 +480,7 @@ margin-bottom: 9px;
 }
 
 .subscribe > form {
-  display: block;
+  display: flex;
 }
 
 .subscribe p {
