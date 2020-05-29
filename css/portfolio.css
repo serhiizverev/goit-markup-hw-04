@@ -167,7 +167,12 @@ margin-top: 30px;
 .subscribe-box {
   display: inline-flexbox;
 }
+.forma > p {
+  text-transform: uppercase;
+  font-size: 16px;
+}
 .subscribe-box-send {
+  margin-top: 21px;
   display: flex;
 }
 .input {
@@ -176,6 +181,8 @@ margin-top: 30px;
 }
 .subscribe-box-button {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .subscribe-box-button > b {
   padding: 10px 29px;
