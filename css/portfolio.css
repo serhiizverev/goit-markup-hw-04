@@ -167,10 +167,6 @@ margin-top: 30px;
 .subscribe-box {
   display: inline-flexbox;
 }
-.forma > p > b {
-  text-transform: uppercase;
-  font-size: 16px;
-}
 .subscribe-box-send {
   margin-top: 21px;
   display: flex;
@@ -181,6 +177,8 @@ margin-top: 30px;
 }
 .subscribe-box-button {
   display: flex;
+  font-size: 16px;
+  line-height: 1.8;
   justify-content: center;
   align-items: center;
   margin-left: 10px;
@@ -194,10 +192,10 @@ margin-top: 30px;
 }
 
 .subscribe-icon-button {
-  display: inline-flex;
+  display: block;
   width: 24px;
   height: 24px;
-  padding: 13px 28px 13px 10px;
+  /* padding: 13px 28px 13px 10px; */
   fill: white;
 }
 

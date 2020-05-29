@@ -500,31 +500,11 @@ margin-bottom: 9px;
   margin-bottom: 9px;
 }
 
-.subscribe,
+form > p,
 .footer-cammon {
- font-size: 14px;
- line-height: 16px;
+ font-size: 16px;
  text-transform: uppercase;
 }
-
-/* .subscribe .button {
-  display: inline-block;
-  position: relative;
-  padding: 15px 62px 15px 29px;
-  border: 2px solid transparent;
-  border-radius: 4px;
-} */
-
-/* .subscribe .button::after {
-  position: absolute;
-  content: '';
-  width: 24px;
-  height: 24px;
-  right: 28px;
-  bottom: 12px;
-  color: #ffffff;
-  background-image: url(../images/sprite.svg#icon-send);
-} */
 
 input[type=text] {
   display: inline-block;
