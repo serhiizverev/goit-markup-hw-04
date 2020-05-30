@@ -433,7 +433,7 @@ margin: -1;
   margin-right: 0px;
 }
 .box-clietns > li > a {
-  display: block;
+  display: flex;
   width: 170px;
   height: 90px;
   border: 1px solid #AFB1B8;
@@ -445,6 +445,8 @@ margin: -1;
   border: 1px solid  #2196F3;
 }
 .box-clietns-icon {
+  justify-content: center;
+  align-items: center;
   fill: #AFB1B8;
 }
 .box-clietns-icon:hover {
