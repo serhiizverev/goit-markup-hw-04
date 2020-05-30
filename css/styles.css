@@ -417,32 +417,29 @@ margin: -1;
   margin-right: 30px;
 }
 
+.clients-item {
+  width: 170px;
+  height: 90px;  
+  border: 1px solid green;
+  border-radius: 4px;
+  fill: green;
+}
+
 .clients-link {
   display: flex;
-  width: 170px;
-  height: 90px;
-  border: 1px solid #AFB1B8;
-  color: #AFB1B8;
-  border-radius: 4px;
-  justify-content: center;
+  width: 100%;
+  height: 100%;  
   align-items: center;
-}
-
-.clients-link:hover {
-  border: 1px solid black;
-  border-radius: 4px;
-  color: black;
-}
-
-.clients-icon {
+  justify-content: center;
   fill: inherit;
-  background-color: blue;
+}
+.clients-item:hover,
+.clients-item:focus {
+  fill:blue;
+  border: 1px solid blue;
 }
 
-.clients-icon:hover {
-  fill: black;
-  background-color: yellow;
-}
+
 
 
 /* footer ---------------- */
