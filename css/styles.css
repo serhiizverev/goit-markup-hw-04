@@ -408,29 +408,38 @@ margin: -1;
   margin-top: 94px;
 }
 
-.box-clietns {
+.clients-list {
   display: flex;
   margin-top: 50px;
 }
 
-.box-clietns > li {
+.clients-item {
   display: block;
-  border-radius: 4px;
   margin-right: 30px;
 }
 
-.box-clietns > li:last-child {
-  margin-right: 0px;
+.clients-item:last-child {
+  margin-right: 0;
 }
 
-.box-clietns > li > a {
-  display: flex;
+.clients-link {
+  display: block;
   width: 170px;
   height: 90px;
+  border: 1px solid #AFB1B8;
+  color:  #AFB1B8;
   border-radius: 4px;
-  align-items: center;
-  justify-content: center;
 }
+
+.clients-link:hover {
+  display: block;
+  width: 170px;
+  height: 90px;
+  border: 1px solid black;
+  border-radius: 4px;
+  color: black;
+}
+
 
 /* footer ---------------- */
 footer {

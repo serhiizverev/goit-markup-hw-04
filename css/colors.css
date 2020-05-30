@@ -150,22 +150,6 @@ footer .developed {
 
 /* .clients 
  оформление блока с клиентами на главной старнице*/
-.box-clietns-item {
-  color: var(--icons-color);
-  border: 1px solid var(--icons-color);
-}
-.box-clietns-item:hover {
-  color: var(--accent-color);
-  border: 1px solid var(--accent-color);
-}
-.box-clietns-icon {
-  fill: inherit;
-}
-.box-clietns-icon:hover {
-  fill: var(--accent-color);
-}
-
-
 
 
 
