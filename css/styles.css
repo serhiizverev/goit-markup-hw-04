@@ -424,8 +424,8 @@ margin: -1;
 .box-clietns {
   display: flex;
   margin-top: 50px;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 }
 .box-clietns > li {
   display: block;
@@ -434,6 +434,9 @@ margin: -1;
   margin-right: 30px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 .box-clietns > li:hover {
   border: 1px solid #2196F3;
@@ -442,6 +445,9 @@ margin: -1;
   margin-right: 0px;
 } 
 .box-clietns-icon {
+  display: block;
+  justify-content: center;
+  align-items: center;
   fill: #AFB1B8;
 }
 .box-clietns-icon:hover {
