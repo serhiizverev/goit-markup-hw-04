@@ -420,9 +420,7 @@ margin: -1;
 .clients-item {
   width: 170px;
   height: 90px;  
-  border: 1px solid green;
   border-radius: 4px;
-  fill: green;
 }
 
 .clients-link {
@@ -433,14 +431,6 @@ margin: -1;
   justify-content: center;
   fill: inherit;
 }
-.clients-item:hover,
-.clients-item:focus {
-  fill:blue;
-  border: 1px solid blue;
-}
-
-
-
 
 /* footer ---------------- */
 footer {
