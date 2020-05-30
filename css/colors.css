@@ -151,8 +151,7 @@ footer .developed {
 /* .clients 
  оформление блока с клиентами на главной старнице*/
 
- .clients-item,
- .clients-link {
+ .clients-item {
   border: 1px solid var(--icons-color);
   fill: var(--icons-color);
 }
@@ -169,7 +168,7 @@ footer .developed {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.soc-links:hover:before {
+.soc-links:hover:before  {
   background-color:var(--accent-color);
 }
 
