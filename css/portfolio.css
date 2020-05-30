@@ -158,6 +158,7 @@ margin-top: 30px;
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  background-color: var(--accent-color);
 }
 
 /* footer buton send form ++++
@@ -203,8 +204,3 @@ margin-top: 30px;
 }
 
 /* ========================== */
-
-.subscribe-box-button:hover,
-.subscribe-box-button:focus {
-  opacity: 0.9;
-}

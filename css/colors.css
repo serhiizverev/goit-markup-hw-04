@@ -162,6 +162,10 @@ footer .developed {
   fill: var(--icons-color);
 }
 
+.box-clietns > li>:hover {
+  fill: var(--accent-color);
+}
+
 .box-clietns-icon:hover {
   fill: var(--accent-color);
 }
@@ -187,9 +191,6 @@ footer .developed {
 
 /* 
  */
-.button-icon:hover {
-  background-color: var(--accent-color);
-}
 
 .subscribe-box-button {
   color: var(--background-text-footer);
