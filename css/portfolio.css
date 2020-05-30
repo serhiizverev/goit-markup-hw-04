@@ -107,7 +107,6 @@
   font-size: 18px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-
   color: #FFFFFF;
   padding: 20px;
   /* background-color: rgba(33, 150, 243, 0.9); */
@@ -159,22 +158,25 @@ margin-top: 30px;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #2196F3;
 }
 
 /* footer buton send form ++++
   кнопка подписаться формы футера */
+
 .subscribe-box {
   display: inline-flexbox;
 }
+
 .subscribe-box-send {
   margin-top: 21px;
   display: flex;
 }
+
 .input {
   width: 358px;
   height: 50px;
 }
+
 .subscribe-box-button {
   display: flex;
   font-size: 16px;
@@ -184,9 +186,8 @@ margin-top: 30px;
   margin-left: 10px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  color: var(--background-text-footer);
-  background-color: var(--accent-color);
 }
+
 .subscribe-box-button > b {
   margin: 10px 0 10px 29px;
 }
@@ -202,12 +203,8 @@ margin-top: 30px;
 }
 
 /* ========================== */
-.subscribe-button {
-  color: var(--background-text-footer);
-  background-color: var(--accent-color);
-}
 
-.subscribe-button:hover,
-.subscribe-button:focus {
+.subscribe-box-button:hover,
+.subscribe-box-button:focus {
   opacity: 0.9;
 }

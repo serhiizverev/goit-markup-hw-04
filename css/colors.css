@@ -50,6 +50,12 @@ body {
 color: black
 }
 
+/* 
+ */
+.site-nav .activ::before {
+  background-color: var(--accent-color);
+} 
+
 .button-hero {
   color: var(--background-text-footer);
   background-color: var(--accent-color);
@@ -102,8 +108,6 @@ footer .developed {
 }
 
 /*  стили цвета в портфолио */
-
-
 .link-portfolio {
   color: var(--head-and-subhead-color);
   background-color: var(--background-color-command);
@@ -136,5 +140,68 @@ footer .developed {
 
 .projeck-conteiner .card:hover {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
-
 }
+
+/* .features-box
+ преимущества */
+.features-box-content::before {
+  background-color: var(--background-color-command);
+}
+
+/* .clients 
+ оформление блока с клиентами на главной старнице*/
+.box-clietns > li > a {
+  border: 1px solid var(--icons-color);
+}
+
+.box-clietns > li > a:hover {
+  border: 1px solid  var(--accent-color);
+}
+
+.box-clietns-icon {
+  fill: var(--icons-color);
+}
+
+.box-clietns-icon:hover {
+  fill: var(--accent-color);
+}
+
+/* .soc-links  
+ цвета иконок на социальные сети */
+.soc-links::before {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.soc-links:hover:before  {
+  background-color:var(--accent-color);
+}
+
+.command-soc-icon {
+  fill: var(--icons-color);
+}
+
+.command-soc-icon:hover {
+  fill: var(--background-text-footer);
+  background-color: var(--accent-color);
+}
+
+/* 
+ */
+.button-icon:hover {
+  background-color: var(--accent-color);
+}
+
+.subscribe-box-button {
+  color: var(--background-text-footer);
+  background-color: var(--accent-color);
+}
+
+.subscribe-box-button:hover,
+.subscribe-box-button:focus {
+  opacity: 0.9;
+}
+
+/* .subscribe-button {
+  color: var(--background-text-footer);
+  background-color: var(--accent-color);
+} */

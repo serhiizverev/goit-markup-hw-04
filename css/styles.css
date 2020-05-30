@@ -84,7 +84,6 @@ h2 {
   height: 4px;
   left: 0;
   bottom: 0;
-  background-color: var(--accent-color);
   border-radius: 2px;
 } 
 
@@ -240,7 +239,6 @@ margin: -1;
   background-size: 70px 70px;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: var(--background-color-command);
 }
 
 .features-box-content.icon-antena::before {
@@ -330,7 +328,6 @@ margin: -1;
   content: '';
   width: auto;
   height: 260px;
-  background-color: lightslategray;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -393,23 +390,17 @@ margin: -1;
   margin-right: 0;
 }
 
-.command-soc-sprite {
-
-}
 .command-soc-icon {
   display: block;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill:#AFB1B8;
 }
 
 .command-soc-icon:hover {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: #FFFFFF;
-  background-color: #2196F3;
 }
 
 /* .displayed {
@@ -436,22 +427,16 @@ margin: -1;
   display: flex;
   width: 170px;
   height: 90px;
-  border: 1px solid #AFB1B8;
   border-radius: 4px;
   align-items: center;
   justify-content: center;
 }
-.box-clietns > li > a:hover{
-  border: 1px solid  #2196F3;
-}
+
 .box-clietns-icon {
   justify-content: center;
   align-items: center;
-  fill: #AFB1B8;
 }
-.box-clietns-icon:hover {
-  fill: #2196F3;
-}
+
 /* footer ---------------- */
 
 footer {
@@ -464,7 +449,7 @@ footer {
   align-items: baseline;
   padding-top: 48px;
   padding-bottom: 18px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-left > .logo {
@@ -486,7 +471,6 @@ margin-bottom: 9px;
   width: 44px;
   height: 44px;
   border-radius: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -497,7 +481,6 @@ margin-bottom: 9px;
   width: 44px;
   height: 44px;
   border-radius: 100%;
-  background-color: #2196F3;
   background-repeat: no-repeat;
   background-position: center;
 }
