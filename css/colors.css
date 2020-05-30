@@ -150,33 +150,30 @@ footer .developed {
 
 /* .clients 
  оформление блока с клиентами на главной старнице*/
-.box-clietns > li {
+.box-clietns-item {
   color: var(--icons-color);
   border: 1px solid var(--icons-color);
 }
-
-.box-clietns > li:hover {
+.box-clietns-item:hover {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
-
-.box-clietns > li > a {
-  color: var(--icons-color);
-  border: 1px solid var(--icons-color);
-}
-
-.box-clietns > li > a:hover {
-  color: var(--accent-color);
-  border: 1px solid var(--accent-color);
-}
-
 .box-clietns-icon {
   fill: inherit;
 }
-
 .box-clietns-icon:hover {
-  fill: inherit;
+  fill: var(--accent-color);
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /* .soc-links  
