@@ -413,31 +413,35 @@ margin: -1;
   margin-top: 50px;
 }
 
-.clients-item {
-  display: block;
+.clients-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-item:last-child {
-  margin-right: 0;
-}
-
 .clients-link {
-  display: block;
+  display: flex;
   width: 170px;
   height: 90px;
   border: 1px solid #AFB1B8;
-  color:  #AFB1B8;
+  color: #AFB1B8;
   border-radius: 4px;
+  justify-content: center;
+  align-items: center;
 }
 
 .clients-link:hover {
-  display: block;
-  width: 170px;
-  height: 90px;
   border: 1px solid black;
   border-radius: 4px;
   color: black;
+}
+
+.clients-icon {
+  fill: inherit;
+  background-color: blue;
+}
+
+.clients-icon:hover {
+  fill: black;
+  background-color: yellow;
 }
 
 
