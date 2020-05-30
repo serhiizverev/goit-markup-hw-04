@@ -315,7 +315,6 @@ margin: -1;
   padding-bottom: 94px;
 }
 
-
 .command-box {
   display: block;
   width: 270px;
@@ -413,10 +412,11 @@ margin: -1;
   background-color: #2196F3;
 }
 
-/*/* .displayed {
+/* .displayed {
   display: block;
 } */
 
+/* Наши клиенты +++++++ */
 .clients h2 {
   margin-top: 94px;
 }
@@ -424,8 +424,6 @@ margin: -1;
 .box-clietns {
   display: flex;
   margin-top: 50px;
-  /* justify-content: center;
-  align-items: center; */
 }
 .box-clietns > li {
   display: block;
@@ -434,28 +432,22 @@ margin: -1;
   margin-right: 30px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  /* justify-content: center;
-  align-items: center; */
- background-color: tomato;
-}
-.box-clietns > li >:hover {
-  background-color: green;
-  border: 1px solid #2196F3;
+  justify-content: center;
+  align-items: center;
 }
 .box-clietns > li>:last-child {
   margin-right: 0px;
 } 
+.box-clietns > li >:hover {
+  border: 1px solid #2196F3;
+}
 .box-clietns-icon {
   display: block;
-  background-size: contain;
-  /* justify-content: center;
-  align-items: center; */
   fill: #AFB1B8;
 }
 .box-clietns-icon:hover {
   fill: #2196F3;
 }
-
 
 /* footer ---------------- */
 
