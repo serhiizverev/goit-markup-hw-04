@@ -426,27 +426,10 @@ margin: -1;
   margin-top: 50px;
 }
 .box-clietns > li {
-  display: block;
-  width: 170px;
-  height: 90px;
   margin-right: 30px;
-  border-radius: 4px;  
-  border: 1px solid #AFB1B8;
-  justify-content: center;
-  align-items: center;
 }
 .box-clietns > li>:last-child {
   margin-right: 0px;
-}
-.box-clietns > li:hover{  
-  border: 1px solid #2196F3;
-}
-.box-clietns-icon {
-  display: block;
-  fill: #AFB1B8;
-}
-.box-clietns-icon:hover {
-  fill: #2196F3;
 }
 
 /* footer ---------------- */
