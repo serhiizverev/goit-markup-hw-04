@@ -432,8 +432,8 @@ margin: -1;
   margin-right: 30px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center;
+  align-items: center;
 }
 .box-clietns > li>:last-child {
   margin-right: 0px;
