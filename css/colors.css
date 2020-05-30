@@ -163,11 +163,14 @@ footer .developed {
 }
 
 .box-clietns > li>:hover {
-  fill: var(--accent-color);
+  color: var(--accent-color);
 }
 
-.box-clietns-icon:hover {
+/* .box-clietns-icon:hover {
   fill: var(--accent-color);
+} */
+.box-clietns-icon:hover {
+  fill: inherit;
 }
 
 /* .soc-links  
