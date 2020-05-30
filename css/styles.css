@@ -422,6 +422,8 @@ margin: -1;
 .box-clietns {
   display: flex;
   margin-top: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
 .displayed {
@@ -435,6 +437,13 @@ margin: -1;
 .box-clietns > li:last-child {
   margin-right: 0px;
 } 
+
+.box-clietns-icon {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #2196F3;
+  border-radius: 4px;
+}
 
 /* footer ---------------- */
 
