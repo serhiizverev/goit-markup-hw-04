@@ -394,6 +394,25 @@ margin: -1;
   margin-right: 0;
 }
 
+.command-soc-sprite {
+
+}
+.command-soc-icon {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill:#AFB1B8;
+}
+
+.command-soc-icon:hover {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #FFFFFF;
+  background-color: #2196F3;
+}
+
 /* Постоянные клиенты -------- */
 
 .clients h2 {
