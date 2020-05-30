@@ -2,7 +2,7 @@
 aria-hidden="true" 
 style="position:absolute; width:0; height:0" 
 xmlns="http://www.w3.org/2000/svg" 
-overflow="hidden">
+>
   <defs>
     <symbol id="icon-client-a" viewBox="0 0 32 32">
       <path d="M12.983 11.611l1.336 1.226h3.727v3.419l1.336 1.226v-5.87h-6.4z"/>
