@@ -431,7 +431,22 @@ margin: -1;
 .box-clietns > li>:last-child {
   margin-right: 0px;
 }
-
+.box-clietns > li > a {
+  display: block;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+.box-clietns > li > a:hover{
+  border: 1px solid  #2196F3;
+}
+.box-clietns-icon {
+  fill: indigo;
+}
+.box-clietns-icon:hover {
+  fill: black;
+}
 /* footer ---------------- */
 
 footer {
