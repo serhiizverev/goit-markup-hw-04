@@ -426,6 +426,7 @@ margin: -1;
   margin-top: 50px;
 }
 .box-clietns > li {
+  display: block;
   margin-right: 30px;
 }
 .box-clietns > li>:last-child {
@@ -437,6 +438,8 @@ margin: -1;
   height: 90px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+  align-items: center;
+  justify-content: center;
 }
 .box-clietns > li > a:hover{
   border: 1px solid  #2196F3;
