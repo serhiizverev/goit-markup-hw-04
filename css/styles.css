@@ -417,7 +417,7 @@ margin: -1;
 .clients-link 
 .clients-icon
  */
- 
+
 .clients-list {
   display: flex;
   margin-top: 50px;
@@ -439,7 +439,7 @@ margin: -1;
 .clients-link:hover{
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
-  background-color: yellow;
+  background-color: grey;
 }
 .clients-icon{
   fill: inherit;
