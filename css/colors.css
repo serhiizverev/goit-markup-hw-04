@@ -1,17 +1,4 @@
- /* цвет текстов:
- #2196F3; - ссылки, кнопки и обводки
- #212121 заголовки и подзаоловки - первичный цвет;
- #757575; - параграфы - вторичный цвет
- #AFB1B8; - все иконки
- rgba(255, 255, 255, 0.6);
- 
- background color:
- основной - #FFFFFF;
- вторичный - #F5F4FA;
- футер - #2F303A;
- */
-
-:root {
+ :root {
   --head-and-subhead-color: #212121;
   --paragraf-color: #757575;
   --accent-color: #2196F3;
@@ -52,9 +39,13 @@ color: black
 
 /* 
  */
-.site-nav .activ::before {
-  background-color: var(--accent-color);
-} 
+
+.nav-link {
+  color: var(--head-and-subhead-color);
+}
+.nav-link:hover {
+  color: var(--accent-color);
+}
 
 .button-hero {
   color: var(--background-text-footer);
@@ -78,10 +69,6 @@ h1 {
 
 .link:active {
   color: white;
-}
-
-.activ {
-  color: var(--accent-color);
 }
 
 .mail-content,
@@ -144,13 +131,9 @@ footer .developed {
 
 /* .features-box
  преимущества */
-.features-box-content::before {
-  background-color: var(--background-color-command);
-}
 
 /* .clients 
  оформление блока с клиентами на главной старнице*/
-
 
 
 /* .soc-links  
@@ -184,8 +167,3 @@ footer .developed {
 .subscribe-box-button:focus {
   opacity: 0.9;
 }
-
-/* .subscribe-button {
-  color: var(--background-text-footer);
-  background-color: var(--accent-color);
-} */
