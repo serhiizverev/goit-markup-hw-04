@@ -434,7 +434,6 @@ margin: -1;
 }
 .clients-icon{
   fill: inherit;
-  background-color: inherit;
 }
 .clients-icon:hover{
  fill: var(--accent-color);
