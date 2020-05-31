@@ -408,16 +408,6 @@ margin: -1;
   margin-top: 94px;
 }
 
-/* 
---icons-color
---accent-color
-.clients  
-.clients-list 
-.clients-item 
-.clients-link 
-.clients-icon
- */
-
 .clients-list {
   display: flex;
   margin-top: 50px;
@@ -431,7 +421,8 @@ margin: -1;
   width: 170px;
   height: 90px;
   border: 1px solid var(--icons-color);
-  background-color: lawngreen;
+  fill: var(--icons-color);
+  /* background-color: lawngreen; */
   border-radius: 4px;
   justify-content: center;
   align-items: center;
@@ -439,7 +430,7 @@ margin: -1;
 .clients-link:hover{
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
-  background-color: grey;
+  background-color: var(--accent-color);
 }
 .clients-icon{
   fill: inherit;
