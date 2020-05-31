@@ -408,6 +408,16 @@ margin: -1;
   margin-top: 94px;
 }
 
+/* 
+--icons-color
+--accent-color
+.clients  
+.clients-list 
+.clients-item 
+.clients-link 
+.clients-icon
+ */
+ 
 .clients-list {
   display: flex;
   margin-top: 50px;
@@ -438,21 +448,6 @@ margin: -1;
 .clients-icon:hover{
  fill: var(--accent-color);
 }
-/* .clients-item {
-  width: 100%;
-  height: 100%;
-} */
-
-/* 
---icons-color
---accent-color
-.clients  
-.clients-list 
-.clients-item 
-.clients-link 
-.clients-icon
- */
-
 
 /* footer ---------------- */
 footer {
