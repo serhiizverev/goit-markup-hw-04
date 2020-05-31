@@ -430,7 +430,7 @@ margin: -1;
 .clients-link:hover{
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
-  background-color: var(--accent-color);
+  /* background-color: var(--accent-color); */
 }
 .clients-icon{
   fill: inherit;
