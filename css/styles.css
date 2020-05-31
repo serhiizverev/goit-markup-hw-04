@@ -49,6 +49,16 @@ h2 {
   padding: 0 15px;
 }
 
+.is-hidden {
+  visibility: hidden;
+  width: 1;
+  height: 1;
+  margin: -1;
+  position: absolute;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  }  /*данный блок не отображается в браузере, но учавствует в потоке*/
+  
 /* header-conteiner ===================*/
 .header-nav .conteiner {
   display: flex;
@@ -196,15 +206,6 @@ h1 {
 
 /* Преимущества features------*/
 
-.is-hidden {
-visibility: hidden;
-position: absolute;
-clip: rect(0 0 0 0);
-width: 1;
-height: 1;
-margin: -1;
-}
-
 .features {
   padding: 94px 0;
   border-bottom: 1px solid #ECECEC;
@@ -219,48 +220,38 @@ margin: -1;
  
  .par-txt {
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.8;
   margin-top: 10px;
  }
 
-.features ul {
+.features-list {
   display: flex; 
+  padding: 0;
 }
 
-.features-box-content {
+.features-icon-block {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background: var(--background-color-command);
+  border: 0px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-item:not(:last-child) {
   margin-right: 30px;
 }
-
-.features-box-content::before {
-  content: '';
+.features-item {
+  padding: 0;
   display: block;
-  height: 120px;
-  border-radius: 4px;
-  background-size: 70px 70px;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
-.features-box-content.icon-antena::before {
-  background-image: url('../images/features/antena.svg');
-}
-
-.features-box-content.icon-clock::before {
-  background-image: url('../images/features/clock.svg');
-}
- 
-
-.features-box-content.icon-diagram::before {
-  background-image: url('../images/features/diagram.svg');
-}
-
-.features-box-content.icon-astronaut::before {
-  background-image: url('../images/features/astronaut.svg');
-}
-
-.features-box-content:last-child {
-  margin-right: 0px;
-}
+/* .features-icon {
+  fill: var(--head-and-subhead-color);
+  fill: var(--accent-color);
+} */
 
  /* Чем мы занимаемся doing ====== */
 
@@ -416,6 +407,7 @@ margin: -1;
 .clients-item:not(:last-child) {
   margin-right: 30px;
 }
+
 .clients-link{
   display: flex;
   width: 170px;
@@ -427,14 +419,17 @@ margin: -1;
   justify-content: center;
   align-items: center;
 }
+
 .clients-link:hover{
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
   /* background-color: var(--accent-color); */
 }
+
 .clients-icon{
   fill: inherit;
 }
+
 .clients-icon:hover{
  fill: var(--accent-color);
 }
