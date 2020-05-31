@@ -416,21 +416,31 @@ margin: -1;
 .clients-item:not(:last-child) {
   margin-right: 30px;
 }
-
-.clients-item {
+.clients-link{
+  display: block;
   width: 170px;
-  height: 90px;  
+  height: 90px;
+  border: 1px solid black;
   border-radius: 4px;
+  background-color: chartreuse;
 }
 
-.clients-link {
-  display: flex;
-  width: 100%;
-  height: 100%;  
-  align-items: center;
-  justify-content: center;
-  fill: inherit;
-}
+/* 
+.clients  
+.clients-list 
+.clients-item 
+.clients-link 
+.clients-icon
+ */
+ .clients-icon{
+   display: flex;
+   fill: black;
+   border: 1px solid tomato;
+   border-radius: 3px;
+   background-color: blueviolet;
+ }
+ .clients-item{
+ }
 
 /* footer ---------------- */
 footer {
