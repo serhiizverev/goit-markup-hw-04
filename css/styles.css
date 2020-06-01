@@ -456,6 +456,72 @@ button-sprite */
   margin-right: 11px;
 }
 
+/* icons svg soc-links footer +++++++ */
+/* .soc-links  
+ цвета иконок на социальные сети */
+ .footer-cammon-link {
+  display: block;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-cammon-link:hover {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+}
+
+.footer-cammon-link:active,
+.footer-cammon-link:focus {
+  background-color: var(--accent-color);
+}
+
+/* footer buton send form ++++
+  кнопка подписаться формы футера */
+
+.subscribe-box {
+  display: inline-flexbox;
+}
+
+.subscribe-box-send {
+  margin-top: 21px;
+  display: flex;
+}
+
+.input {
+  width: 358px;
+  height: 50px;
+}
+
+.subscribe-box-button {
+  display: flex;
+  font-size: 16px;
+  line-height: 1.8;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-box-button > b {
+  margin: 10px 0 10px 29px;
+}
+
+.subscribe-icon-button {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-right: 28px;
+  margin-left: 13px;
+  fill: white;
+}
+
 .mail-content,
 .tel-content {
   font-size: 14px;
