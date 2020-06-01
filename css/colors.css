@@ -139,25 +139,29 @@ footer .developed {
 /* .clients 
  оформление блока с клиентами на главной старнице*/
 
-.command-soc-icon {
+
+
+
+ 
+/* .command-soc-icon {
   fill: var(--icons-color);
-  /* background-color: black; */
+  background-color: black;
 
 }
 
 .command-soc-icon:hover {
   fill: var(--background-text-footer);
   background-color: var(--accent-color);
-  /* background-color: black;} */
+  background-color: black;}
 }
 
 .command-soc-icon:focus,
 .command-soc-icon:active {
-  /* fill: var(--background-text-footer);
-  background-color: var(--accent-color); */
+  fill: var(--background-text-footer);
+  background-color: var(--accent-color);
   fill: yellow;
   background-color: black;
-}
+} */
 
 .subscribe-box-button {
   color: var(--background-text-footer);

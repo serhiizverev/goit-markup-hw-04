@@ -152,7 +152,6 @@ h2 {
   fill: var(--accent-color)
 }
 
-
 /* == */
 
 .img-box-nav {
@@ -379,12 +378,45 @@ h1 {
   margin-right: 0;
 }
 
-.command-soc-icon {
+/* .command-soc-icon {
   display: block;
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  попытка переделать под фокус и актив
+} */
+.command-soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: none;
+  fill: var(--icons-color);
 }
+.command-soc-link:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  fill: var(--background-text-footer);
+}
+.command-soc-link:active,
+.command-soc-link:focus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  fill: var(--background-text-footer);
+}
+
 
 /* Наши клиенты +++++++ */
 .clients h2 {
