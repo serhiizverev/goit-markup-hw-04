@@ -144,7 +144,9 @@ margin-top: 30px;
 }
 
 /* icons svg soc-links footer +++++++ */
-.button-icon {
+/* .soc-links  
+ цвета иконок на социальные сети */
+.footer-cammon-link {
   display: block;
   padding: 0;
   width: 44px;
@@ -154,10 +156,15 @@ margin-top: 30px;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.button-icon:hover {
+.footer-cammon-link:hover {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  background-color: var(--accent-color);
+}
+
+.footer-cammon-link:active,
+.footer-cammon-link:focus {
   background-color: var(--accent-color);
 }
 
@@ -197,7 +204,6 @@ margin-top: 30px;
   display: block;
   width: 24px;
   height: 24px;
-  /* padding: 13px 28px 13px 10px; */
   margin-right: 28px;
   margin-left: 13px;
   fill: white;

@@ -46,6 +46,10 @@ color: black
 .nav-link:hover {
   color: var(--accent-color);
 }
+.nav-link:focus,
+.nav-link:active {
+  color: var(--accent-color);
+}
 
 .button-hero {
   color: var(--background-text-footer);
@@ -135,28 +139,25 @@ footer .developed {
 /* .clients 
  оформление блока с клиентами на главной старнице*/
 
-
-/* .soc-links  
- цвета иконок на социальные сети */
-.soc-links::before {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.soc-links:hover:before  {
-  background-color:var(--accent-color);
-}
-
 .command-soc-icon {
   fill: var(--icons-color);
+  /* background-color: black; */
+
 }
 
 .command-soc-icon:hover {
   fill: var(--background-text-footer);
   background-color: var(--accent-color);
+  /* background-color: black;} */
 }
 
-/* 
- */
+.command-soc-icon:focus,
+.command-soc-icon:active {
+  /* fill: var(--background-text-footer);
+  background-color: var(--accent-color); */
+  fill: yellow;
+  background-color: black;
+}
 
 .subscribe-box-button {
   color: var(--background-text-footer);
@@ -164,6 +165,7 @@ footer .developed {
 }
 
 .subscribe-box-button:hover,
-.subscribe-box-button:focus {
+.subscribe-box-button:focus,
+.subscribe-box-button:active {
   opacity: 0.9;
 }
