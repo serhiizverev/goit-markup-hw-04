@@ -143,3 +143,12 @@ footer .developed {
 .subscribe-box-button:active {
   opacity: 0.9;
 }
+
+.footer-cammon-link:hover {
+  background-color: var(--accent-color);
+}
+
+.footer-cammon-link:active,
+.footer-cammon-link:focus {
+  background-color: var(--accent-color);
+}
