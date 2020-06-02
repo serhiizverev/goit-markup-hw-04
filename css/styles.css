@@ -256,6 +256,10 @@ h1 {
   padding-top: 94px;
 }
 
+.doing .conteiner > h2 {
+  margin-bottom: 50px;
+}
+
 .block-doing > ul {
   display: flex;
 }
@@ -271,25 +275,23 @@ h1 {
 
 .position-block-doing {
   position: relative;
-  margin-top: 50px;  
   border-radius: 4px;
   overflow: hidden;
 }
 
 .doing-txt {
-  display: inline-block;
-  width: 100%;
-  font-size: 14px;
-  text-align: center;
-  text-transform: uppercase;
-
   position: absolute;
   left: 0px;
   bottom: 0px;
+  display: inline-block;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-top: 27px;
   padding-bottom: 27px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
   border-radius: 0px 0px 4px 4px;
 }
 
