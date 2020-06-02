@@ -209,9 +209,9 @@ h1 {
 }
 
 .features .conteiner::after {
+  position: absolute;
   content: '';
   display: block;
-  position: absolute;
   width: calc(100%);
   height: 1px;
   bottom: 0 ;
@@ -255,11 +255,6 @@ h1 {
   padding: 0;
   display: block;
 }
-
-/* .features-icon {
-  fill: var(--head-and-subhead-color);
-  fill: var(--accent-color);
-} */
 
  /* Чем мы занимаемся doing ====== */
 
@@ -327,7 +322,7 @@ h1 {
 .command-box::before {
   display: block;
   content: '';
-  width: auto;
+  width: 100%;
   height: 260px;
   background-repeat: no-repeat;
   background-position: center;
